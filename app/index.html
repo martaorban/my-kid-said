@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app="mksApp" class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>My Kid Said</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/">
+ 
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript">
+    var jq = jQuery.noConflict();
+  </script>
+</head>
+<body>
+
+<div class="container">
+  <div ng-include="'views/fragments/navbar.html'"></div>
+  <div id="angular-views-entry" ng-view=""></div>
+</div>
+
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-route/angular-route.min.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script src="scripts/app.js"></script>
+<script src="scripts/app-config.js"></script>
+<script src="scripts/app-run.js"></script>
+<script src="scripts/controllers/dashboard.js"></script>
+
+<script src="scripts/services/url.service.js"></script>
+
+</body>
+</html>

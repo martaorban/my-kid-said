@@ -1,0 +1,12 @@
+{
+  "name": "my-kid-said",
+  "version": "0.1.0",
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-route": "1.5.x",
+    "bootstrap": "^3.3.6",
+    "angular-ui": "^0.4.0",
+    "angular-bootstrap": "^1.1.2",
+    "jquery": "^2.2.0"
+  }
+}
