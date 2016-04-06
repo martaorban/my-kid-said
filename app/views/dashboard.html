@@ -9,6 +9,12 @@
             <!--Body content-->
             <div class="row">
                 <h2>Latest Quotes</h2>
+                <!--{{vm.latestQuote}}-->
+                <div style="border:1px solid #cccccc; margin-bottom: 10px" ng-repeat="v in vm.latestQuote">
+                    <div >{{v.date}}</div>
+                    <div style="font-weight: bold">{{v.kidName}}</div>
+                    <div >{{v.quote}}</div>
+                </div>
             </div>
 
             <div class="row">
